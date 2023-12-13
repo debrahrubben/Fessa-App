@@ -1,19 +1,16 @@
-// App.js
-
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, SafeAreaView, StatusBar } from 'react-native';
 import { WebView } from 'react-native-webview';
-import { StatusBar } from 'expo-status-bar';
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <StatusBar style="auto" />
       <WebView
         source={{ uri: 'https://fessa.netlify.app' }}
         style={styles.webview}
       />
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -27,3 +24,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+

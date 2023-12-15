@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.rubbendebrah.Fessa"
+      "package": "com.Fessa.Fessa"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -5,7 +5,7 @@ import { WebView } from 'react-native-webview';
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar style="auto" />
+      <StatusBar style="auto" backgroundColor="rgba(0, 0, 0, 0.5)" />
       <WebView
         source={{ uri: 'https://fessa.netlify.app' }}
         style={styles.webview}
